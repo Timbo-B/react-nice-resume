@@ -45,7 +45,7 @@ class About extends Component {
                     <br />
                     {/* <span>{phone}</span>
                     <br /> */}
-                    <a href="" className="cryptedmail"
+                    {/* <a href="" className="cryptedmail"
                     data-name="tim.baker4565"
                     data-domain="gmail"
                     data-tld="com"
@@ -53,7 +53,7 @@ class About extends Component {
                     this.dataset.name + '@' + 
                     this.dataset.domain + '.' + 
                     this.dataset.tld; 
-                    return false;"></a>
+                    return false;"></a> */}
                   </p>
                 </div>
                 <div className="columns download">
