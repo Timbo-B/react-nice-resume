@@ -1,78 +1,107 @@
 {
   "main": {
-    "name":"Nordic-Giant Project",
-    "description":"I am a web development engineer and I use react and vue.js to develop pages. This project is a resume template that can be used as the project home page or resume page",
+    "name":"Tim Baker",
+    "description":"I am a product manager passionate about the intersection of technology, financial services, and economic empowerment",
     "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
-    "github":"https://github.com/nordicgiant2/react-nice-resume",
-    "project":"https://github.com/nordicgiant2/react-nice-resume",
+    "bio":"I am a product manager passionate about the intersection of technology, financial services, and economic empowerment. Currently, I am working on insurance analytics at EagleView Technologies.",
+    "contactmessage":"Shoot me a message on LinkedIn if you want to chat!",
+    "email": "tim.baker4565@gmail.com",
+    "github":"https://github.com/Timbo-B",
+    "project":"",
+    "linkedin":"https://www.linkedin.com/in/tim-baker/",
     "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "street":"Sullivan Street",
+      "city":"New York",
+      "state":"New York",
+      "zip": "10012"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
+    "website": "https://www.timothyobaker.com/",
     "social":[
       {
         "name":"facebook",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
+        "url":"https://www.facebook.com/",
         "className":"fa fa-facebook"
       },
       {
         "name":"twitter",
-        "url":"http://twitter.com",
+        "url":"https://twitter.com/",
         "className":"fa fa-twitter"
       },
       {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url":"https://www.linkedin.com/in/tim-baker/",
         "className":"fa fa-linkedin"
       },
       {
         "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
+        "url":"https://www.instagram.com/timbo_spice/",
         "className":"fa fa-instagram"
       },
       {
         "name":"github",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
+        "url":"https://github.com/Timbo-B",
         "className":"fa fa-github"
       }
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage":"",
     "education":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2017",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"University of Maryland",
+        "degree":"BS, Finance; BS, Economics",
+        "graduated":"May 2019",
+        "description":"Bachelor of Science, Finance (Magna Cum Laude); Bachelor of Science, Economics (Cum Laude); University of Maryland Honors College, Wall Street Fellow, Robert H. Smith Business School Honors"
       },
       {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2013",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"London School of Economics",
+        "degree":"Study Abroad",
+        "graduated":"Summer 2017",
+        "description":""
       }
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2018 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"EagleView Technologies",
+        "title":"Associate Product Manager, Insurance Analytics",
+        "years":"Nov 2021 – Current",
+        "description":"EagleView (a Vista Equity | Clearlake Capital portfolio company) is a leader in geospatial technology, providing software, imagery and analytics that transform the way our customers work. EagleView has the largest geospatial data and imagery library in history, covering 98% of the U.S. population."
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2017 - February 2018",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"FiscalNote",
+        "title":"Associate, FiscalNote Markets",
+        "years":"June 2021 – Oct 2021",
+        "description":"Designed data products for hedge fund clients; gathered product requirements, worked with engineering, data science, and marketing stakeholders to define critical features, scope, and roadmap. Analyzed organic and inorganic growth alternatives; advised in the acquisition and integration of a financial data provider. Coordinated business development strategy; managed relationships with HF/PE clients across investment research, due diligence, and data products."
+      },
+      {
+        "company":"JPMorgan Chase & Co.",
+        "title":"Associate, Portfolio Management (Whole Loans)",
+        "years":"June 2020 – June 2021",
+        "description":"Led a team of 4 engineers to build and deliver a portfolio analytics platform, outlining requirements, sourcing (often disparate) data streams, detailing business logic, testing, and deploying solutions.  The platform brought in millions of data points, systematically performing normalizations, transformations, and model calculations; the front-end visualization tool was leveraged across multiple lines of business. Modeled deal economics for multiple ~$4B credit-linked note transactions; calibrated credit/interest rate model parameters to develop bespoke scenarios for analysis of hold, sale, and securitization alternatives. Managed the pre-2008 portfolio (~$20B AUM); wrote scripts informing trading strategies (securitization/sale/hedging). Collaborated across research teams to validate stochastic cashflow modeling; investigated and tested business impacts of quarterly model releases. Coordinated with tech partners on benchmark interest rate conversion (LIBOR/SOFR). Monitored and projected the impact of COVID-19 on consumer credit characteristics across the portfolio (~$140B AUM); frequently presented analysis, insights, and recommendations to senior management."
+      },
+      {
+        "company":"",
+        "title":"Analyst, Non-Agency Mortgage-Backed Securities Trading",
+        "years":"June 2019 – June 2020",
+        "description":"Analyzed and bid pools of mortgage loans ($10-$25MM); assisted in structuring bespoke offers for clients (~$80MM). Managed pricing, trade stipulations, and policy guidance with investor/bank clients over email, phone, and BBG IM. Developed relationships with marquee clients; negotiated pricing on trade settlements ranging from $10-$150MM. Prototyped and designed alongside technology teams to build and test database tools for daily trading data/color."
+      },
+      {
+        "company":"",
+        "title":"Summer Analyst, Markets: Trading",
+        "years":"June 2018 – August 2018",
+        "description":"Identified potential clients for JPM mortgage bonds and derivatives; pitched CMO securities to the MBS trading team. Developed daily market briefings concerning topics in spread products, structured finance, and global rates markets. Automated stratification and analysis of mortgage data using SAS and VBA to support cashflow modeling and valuation."
+      },
+      {
+        "company":"United States Department of the Treasury",
+        "title":"Intern, Office of Capital Markets",
+        "years":"May 2017 – July 2017",
+        "description":"Composed an informational memorandum briefing Secretary Mnuchin on heightened leverage levels in U.S. corporates. Presented to Asst. Secretary of Financial Markets on high frequency trading reform and cross-market synchronization. Pulled yield, spread, and interest rate data from Bloomberg to examine economic cycle positioning/U.S. financial stability."
+      },
+      {
+        "company":"United States Securities and Exchange Commission",
+        "title":"Intern, Division of Economic and Risk Analysis",
+        "years":"January 2017 – April 2017",
+        "description":"Evaluated feedback from the European Securities and Markets Authority on data management and standardization. Summarized thousands of pages of Congressional legislation regarding data standards to assist the Division of Economic and Risk Analysis team."
       }
     ],
     "skills":[
@@ -179,6 +208,40 @@
         "category":"My Travel Blog for my post-university travels",
         "image":"06.jpg",
         "url":"https://www.canadianwanderlust.com"
+      }
+    ]
+  },
+  "songs":{
+    "attributes": [
+      {
+        "title":"Sayings",
+        "description":"Composer; Producer; Mix/Mastering Engineer",
+        "url":"https://open.spotify.com/embed/track/5Cq56EXXrfYhj09RT638V6?utm_source=generator"
+      },
+      {
+        "title":"Everything I Need",
+        "description":"Composer; Producer; Mix/Mastering Engineer",
+        "url":"https://open.spotify.com/embed/track/4NNFnZy71sUztKgPA3LCr1?utm_source=generator"
+      },
+      {
+        "title":"City on Good",
+        "description":"Composer; Producer; Mix/Mastering Engineer",
+        "url":"https://open.spotify.com/embed/track/3AMvsRPtcHFnuAHXeZGbQL?utm_source=generator"
+      },
+      {
+        "title":"Sunday",
+        "description":"Composer; Producer; Mix/Mastering Engineer",
+        "url":"https://open.spotify.com/embed/track/10DMk81nrnwxgB9dK5BO1j?utm_source=generator"
+      },
+      {
+        "title":"Rhodes",
+        "description":"Mix Engineering",
+        "url":"https://open.spotify.com/embed/track/5cZEWPyTpGNmpWVETFKfYD?utm_source=generator"
+      },
+      {
+        "title":"The Shore II-III",
+        "description":"Production",
+        "url":"https://open.spotify.com/embed/track/2aac1hgzIeSpWwI9fIePCR?utm_source=generator"
       }
     ]
   }

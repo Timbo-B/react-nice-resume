@@ -5,12 +5,12 @@ class Contact extends Component {
   render() {
     if (!this.props.data) return null;
 
-    const name = this.props.data.name;
-    const street = this.props.data.address.street;
-    const city = this.props.data.address.city;
-    const state = this.props.data.address.state;
-    const zip = this.props.data.address.zip;
-    const phone = this.props.data.phone;
+    // const name = this.props.data.name;
+    // const street = this.props.data.address.street;
+    // const city = this.props.data.address.city;
+    // const state = this.props.data.address.state;
+    // const zip = this.props.data.address.zip;
+    // const phone = this.props.data.phone;
     const message = this.props.data.contactmessage;
 
     return (
@@ -28,11 +28,16 @@ class Contact extends Component {
             </div>
           </div>
         </Fade>
+        
 
+        
         <div className="row">
           <Slide left duration={1000}>
+          
             <div className="eight columns">
-              <form action="" method="post" id="contactForm" name="contactForm">
+
+
+              {/* <form action="" method="post" id="contactForm" name="contactForm">
                 <fieldset>
                   <div>
                     <label htmlFor="contactName">
@@ -95,18 +100,21 @@ class Contact extends Component {
                 </fieldset>
               </form>
 
-              <div id="message-warning"> Error boy</div>
+              <div id="message-warning"> Error </div>
               <div id="message-success">
                 <i className="fa fa-check"></i>Your message was sent, thank you!
                 <br />
-              </div>
+              </div> */}
+
+
+              
             </div>
           </Slide>
 
           <Slide right duration={1000}>
             <aside className="four columns footer-widgets">
-              <div className="widget widget_contact">
-                <h4>Address and Phone</h4>
+              {/* <div className="widget widget_contact">
+                <h4>Where I am based</h4>
                 <p className="address">
                   {name}
                   <br />
@@ -115,9 +123,9 @@ class Contact extends Component {
                   <br />
                   <span>{phone}</span>
                 </p>
-              </div>
+              </div> */}
 
-              <div className="widget widget_tweets">
+              {/* <div className="widget widget_tweets">
                 <h4 className="widget-title">Latest Tweets</h4>
                 <ul id="twitter">
                   <li>
@@ -144,7 +152,9 @@ class Contact extends Component {
                     </b>
                   </li>
                 </ul>
-              </div>
+              </div> */}
+
+
             </aside>
           </Slide>
         </div>

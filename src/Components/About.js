@@ -12,9 +12,9 @@ class About extends Component {
     const city = this.props.data.address.city;
     const state = this.props.data.address.state;
     const zip = this.props.data.address.zip;
-    const phone = this.props.data.phone;
-    const email = this.props.data.email;
-    const resumeDownload = this.props.data.resumedownload;
+    // const phone = this.props.data.phone;
+    // const email = this.props.data.email;
+    // const resumeDownload = this.props.data.resumedownload;
 
     return (
       <section id="about">
@@ -43,14 +43,22 @@ class About extends Component {
                       {city} {state}, {zip}
                     </span>
                     <br />
-                    <span>{phone}</span>
-                    <br />
-                    <span>{email}</span>
+                    {/* <span>{phone}</span>
+                    <br /> */}
+                    <a href="" className="cryptedmail"
+                    data-name="tim.baker4565"
+                    data-domain="gmail"
+                    data-tld="com"
+                    onclick="window.location.href = 'mailto:' + 
+                    this.dataset.name + '@' + 
+                    this.dataset.domain + '.' + 
+                    this.dataset.tld; 
+                    return false;"></a>
                   </p>
                 </div>
                 <div className="columns download">
                   <p>
-                    <a href={resumeDownload} className="button">
+                    <a href="../../Resume.pdf" className="button">
                       <i className="fa fa-download"></i>Download Resume
                     </a>
                   </p>
