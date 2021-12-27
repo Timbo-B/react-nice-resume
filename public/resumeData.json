@@ -12,8 +12,8 @@
     "address":{
       "street":"Sullivan Street",
       "city":"New York",
-      "state":"New York",
-      "zip": ""
+      "state":"",
+      "zip": "New York"
     },
     "website": "https://www.timothyobaker.com/",
     "social":[
